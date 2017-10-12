@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="MuMavenProject.Servify360Dasbord.Login360Dashbord">
+        <methods>
+          <include name="ConsumerTab"/>
+          <include name="UserLoginServify360Dashbord"/>
+          <include name="PlansTab"/>
+          <include name="DiagnosisCheckyMobileNO"/>
+          <include name="ReqestTab"/>
+          <include name="ConsumerViewDetilsButtons"/>
+          <include name="Diagnosistab"/>
+        </methods>
+      </class> <!-- MuMavenProject.Servify360Dasbord.Login360Dashbord -->
+      <class name="MuMavenProject.Servify360Dasbord.ConsumerTab">
+        <methods>
+          <include name="ConsumerViewDetilsButtons"/>
+          <include name="ConsumerTab"/>
+        </methods>
+      </class> <!-- MuMavenProject.Servify360Dasbord.ConsumerTab -->
+      <class name="MuMavenProject.Servify360Dasbord.ConsumerTab2">
+        <methods>
+          <include name="ConsumerTab"/>
+          <include name="ConsumerViewDetilsButtons"/>
+        </methods>
+      </class> <!-- MuMavenProject.Servify360Dasbord.ConsumerTab2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
